@@ -1,0 +1,52 @@
+<div class="wrap">
+        <!--包裹所有元素的容器-->
+        <div class="cube">
+            <!--前面图片 -->
+            <div class="out_front">
+                <img src="https://images.cnblogs.com/cnblogs_com/ljy-endl/1526565/t_v2-079ecf6b586a38507cdcd22c63ba9510_hd.jpg" class="pic">
+            </div>
+            <!--后面图片 -->
+            <div class="out_back">
+                <img src="https://images.cnblogs.com/cnblogs_com/ljy-endl/1526565/t_v2-bac125d62435431254d1be3d287d2248_hd.jpg" class="pic">
+            </div>
+            <!--左面图片 -->
+            <div class="out_left">
+                <img src="https://images.cnblogs.com/cnblogs_com/ljy-endl/1526565/t_v2-6b60a17e59a3a170118ab117af4c572c_hd.jpg" class="pic">
+            </div>
+            <!--右面图片 -->
+            <div class="out_right">
+                <img src="https://images.cnblogs.com/cnblogs_com/ljy-endl/1526565/t_v2-5ed6c792c2591a6c2f36945424df2962_hd.jpg" class="pic">
+            </div>
+            <!--上面图片 -->
+            <div class="out_top">
+                <img src="https://images.cnblogs.com/cnblogs_com/ljy-endl/1526565/t_v2-4acfd22bb29c5a7a957666d6149ac920_hd.jpg" class="pic">
+            </div>
+            <!--下面图片 -->
+            <div class="out_bottom">
+                <img src="https://images.cnblogs.com/cnblogs_com/ljy-endl/1526565/t_v2-1fc9c3def09226903378da337974761a_hd.jpg" class="pic">
+            </div>
+ 
+            <!--小正方体 -->
+            <span class="in_front">
+                <img src="https://images.cnblogs.com/cnblogs_com/ljy-endl/1526577/t_v2-14aec793aeee6740b0617312d067970b_hd.jpg" class="in_pic">
+            </span>
+            <span class="in_back">
+                 <img src="https://images.cnblogs.com/cnblogs_com/ljy-endl/1526577/t_v2-9b6054b5ed05aa8a5d09729d1883cd2b_hd.jpg" class="in_pic">
+            </span>
+            <span class="in_left">
+                <img src="https://images.cnblogs.com/cnblogs_com/ljy-endl/1526577/t_v2-70184b776c453c1a2ca80694ebbed99b_hd.jpg" class="in_pic">
+            </span>
+            <span class="in_right">
+                <img src="https://images.cnblogs.com/cnblogs_com/ljy-endl/1526577/t_v2-7bbb6ebd4977376ae6f00a78b7eeb7a4_hd.jpg" class="in_pic">
+            </span>
+            <span class="in_top">
+                <img src="https://images.cnblogs.com/cnblogs_com/ljy-endl/1526577/t_v2-453eb7b4fb882a0e07a19c1a71f756f2_hd.jpg" class="in_pic">
+            </span>
+            <span class="in_bottom">
+                <img src="https://images.cnblogs.com/cnblogs_com/ljy-endl/1526577/t_v2-cc1d31d8ba82c23f658113a1261fa338_hd.jpg" class="in_pic">
+            </span>
+        </div>
+ 
+    </div>
+	
+	

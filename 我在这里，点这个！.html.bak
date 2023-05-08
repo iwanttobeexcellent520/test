@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello！</title>
+    <link type="text/css" rel="stylesheet" href="3Dpicture_wall.css">
+    <link type="text/css" rel="stylesheet" href="3D立体照片墙.css">
+	<script src="Hover.js" type="text/javascript"></script>
+	<script src="clk.js" type="text/javascript"></script>
+
+</head>
+
+
+
+
+    <body bgcolor="#ffc0cb">
+<script src="蜘蛛网.js" type="text/javascript"></script>
+<script src="樱花.js" type="text/javascript"></script>
+
+	<audio id="v" src="./music/夏天的风.mp3" loop="loop" autoplay="autoplay" ></audio>
+	<script type="text/javascript">
+    window.onload = function(){
+             setInterval("toggleSound()",50);
+        }
+
+    function toggleSound() {
+                var music = document.getElementById("v");//获取ID  
+                    
+                if (music.paused) { //判读是否播放  
+                    music.paused=false;
+                    music.play(); //没有就播放 
+                }    
+        }
+</script>
+
+<span class="js-cursor-container"></span>
+	<!-- sakura shader -->
+
+        <div class="container">
+            <div class="box">
+                <div class="circle circle1">
+                    <img src="./img/1.jpg" alt="">
+                </div>
+                <div class="circle circle2">
+                    <img src="./img/2.jpg" alt="">
+                </div>
+                <div class="circle circle3">
+                    <img src="./img/3.jpg" alt="">
+                </div>
+                <div class="circle circle4">
+                    <img src="./img/4.jpg" alt="">
+                </div>
+                <div class="circle circle5">
+                    <img src="./img/5.jpg" alt="">
+                </div>
+                <div class="circle circle6">
+                    <img src="./img/6.jpg" alt="">
+                </div>
+                <div class="circle circle7">
+                    <img src="./img/7.jpg" alt="">
+                </div>
+                <div class="circle circle8">
+                    <img src="./img/8.jpg" alt="">
+                </div>
+                <div class="circle circle9">
+                    <img src="./img/9.jpg" alt="">
+                </div>
+                <div class="circle circle10">
+                    <img src="./img/10.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    <div class="wrap" style="left: 40%; position: absolute; top:50%;">
+        <!--包裹所有元素的容器-->
+        <div class="cube">
+            <!--前面图片 -->
+            <div class="out_front">
+                <img src="./img/1.jpg" class="pic">
+            </div>
+            <!--后面图片 -->
+            <div class="out_back">
+                <img src="./img/1.jpg" class="pic">
+            </div>
+            <!--左面图片 -->
+            <div class="out_left">
+                <img src="./img/1.jpg" class="pic">
+            </div>
+            <!--右面图片 -->
+            <div class="out_right">
+                <img src="./img/1.jpg" class="pic">
+            </div>
+            <!--上面图片 -->
+            <div class="out_top">
+                <img src="./img/1.jpg" class="pic">
+            </div>
+            <!--下面图片 -->
+            <div class="out_bottom">
+                <img src="./img/1.jpg" class="pic">
+            </div>
+
+            <!--小正方体 -->
+            <span class="in_front">
+                <img src="./img/1.jpg" class="in_pic">
+            </span>
+            <span class="in_back">
+                 <img src="./img/1.jpg" class="in_pic">
+            </span>
+            <span class="in_left">
+                <img src="./img/1.jpg" class="in_pic">
+            </span>
+            <span class="in_right">
+                <img src="./img/1.jpg" class="in_pic">
+            </span>
+            <span class="in_top">
+                <img src="./img/1.jpg" class="in_pic">
+            </span>
+            <span class="in_bottom">
+                <img src="./img/1.jpg" class="in_pic">
+            </span>
+        </div>
+
+    </div>
+<p style="left: 47%; position: absolute; top:23%;font-weight:bold;font-size:19px"></p>
+    </body>
+</html>
